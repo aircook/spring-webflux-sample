@@ -1,4 +1,4 @@
-###
+###controller hello
 GET http://localhost:8080/controller/hello
 Accept: application/json
 
@@ -15,3 +15,18 @@ Accept: application/json
 ###
 GET http://localhost:8080/routes2
 Accept: application/json
+
+###
+GET http://localhost:8080/load
+Accept: application/json
+
+###
+GET http://localhost:8080/reactive-list
+Accept: application/json
+
+###
+GET http://localhost:8080/normal-list
+Accept: application/json
+
+
+
