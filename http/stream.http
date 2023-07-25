@@ -1,0 +1,17 @@
+###
+GET http://localhost:8080/controller/hello
+Accept: application/json
+
+###
+GET http://localhost:8080/controller/stream
+Accept: application/json
+#Accept: text/event-stream
+#Accept: application/stream+json
+
+###
+GET http://localhost:8080/routes1
+Accept: application/json
+
+###
+GET http://localhost:8080/routes2
+Accept: application/json
